@@ -11,7 +11,6 @@ var passport = require('passport');
 require('./models/models');
 var index = require('./routes/index');
 var authenticate = require('./routes/authenticate')(passport);
-var mongoose = require('mongoose');
 var socket_io = require("socket.io");
 //mongoose.connect('mongodb://localhost/test-chirp');
 //var uri = "mongodb://admin:admin@ds139082.mlab.com:39082/chatter-db"
